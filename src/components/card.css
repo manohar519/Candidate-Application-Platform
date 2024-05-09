@@ -1,0 +1,51 @@
+.job-card {
+  display: flex;
+  justify-content: flex-start;
+  padding: 10px;
+  flex-direction: column;
+  width: 300px;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 2px 2px 2px 2px rgba(130, 123, 123, 0.2), 2px 2px 2px 2px rgba(138, 134, 134, 0.19), 2px 2px 2px 2px rgba(138, 134, 134, 0.19), 2px 2px 2px 2px rgba(138, 134, 134, 0.19);
+
+}
+
+.mini-card {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  font-size: small;
+  width: 150px;
+  border-radius: 8px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+}
+
+.salary {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+}
+
+.container {
+  position: relative;
+  width: 200px;
+  /* Adjust as needed */
+  height: 100px;
+  /* Adjust as needed */
+}
+
+
+.description {
+  text-align: left;
+  text-wrap: balance;
+}
+
+
+.button {
+  position: relative;
+  z-index: 2;
+  /* Ensure button is above the description */
+}
